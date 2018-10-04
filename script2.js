@@ -1,10 +1,10 @@
-var userNumber = prompt("Guess a number");
-var hiddenNumber = 10;
-if (Number(userNumber) === hiddenNumber) {
+var userNumber = Number(prompt("Guess a number"));
+var secretNumber = 10;
+if (userNumber === secretNumber) {
 	alert("You WON!!! The number is trully 10");
 	console.log("You WON!!! The number is trully 10");
 }
-else if (userNumber > hiddenNumber) {
+else if (userNumber > secretNumber) {
 	alert("Too high. Try again");
 	console.log("Too high. Try again");
 }
