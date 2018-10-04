@@ -15,7 +15,7 @@ else {
 alert("Go to the party and get the free shot "+userAge);
 console.log("Go to the party and get the free shot "+userAge);
 }
-if (userAge == 4 || userAge == 9 || userAge == 16 || userAge == 25 || userAge == 36 || userAge == 49 || userAge == 64) {
+if (userAge % Math.sqrt(userAge) === 0 ) {
 alert("Perfect square age! You are "+userAge);
 console.log("Perfect square age! You are "+userAge);
 }
