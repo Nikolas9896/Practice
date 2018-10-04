@@ -1,6 +1,6 @@
 var userNumber = prompt("Guess a number");
-var hiddenNumber = "10";
-if (userNumber === hiddenNumber) {
+var hiddenNumber = 10;
+if (Number(userNumber) === hiddenNumber) {
 	alert("You WON!!! The number is trully 10");
 	console.log("You WON!!! The number is trully 10");
 }
