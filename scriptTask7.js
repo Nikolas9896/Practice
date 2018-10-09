@@ -15,7 +15,7 @@ while(command!=="quit")
 	}
 	else if(command==="delete")
 	{
-		var i = prompt("what would you like to do?");
+		var i = prompt("Enter index number for delete element?");
 		arr.splice(i,1);
 	}
 }
