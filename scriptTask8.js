@@ -1,3 +1,5 @@
+// ********* printReverse *************
+
 function printReverse(array1)
 {
 	var last_index=array.length-1;
@@ -6,7 +8,7 @@ function printReverse(array1)
 		console.log(array1[i]);
 	}
 }
-
+//********* isUniform function ***********
 function isUniform(array1)
 {
 	var j = true
@@ -22,6 +24,7 @@ function isUniform(array1)
 	return j;
 }
 
+//********* sum function **********
 function sumArray(array1)
 {
 	var sum=0;
@@ -39,7 +42,7 @@ function sumArray(array1)
 	});
 	return sum;
 }
-
+//******** max function ************
 function max(array1)
 {
 	var max=array1[0];
