@@ -11,11 +11,15 @@ while(command!=="quit")
 	}
 	else if (command==="list")
 	{
-		alert(arr);
+		arr.forEach(function(arr, i){
+		alert(i+": "+ arr);	
+		});
+		
 	}
 	else if(command==="delete")
 	{
 		var i = prompt("Enter index number for delete element?");
+		alert("The "+i +": " +arr[i] + " element is deleted!");
 		arr.splice(i,1);
 	}
 }
