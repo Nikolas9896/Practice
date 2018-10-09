@@ -24,10 +24,18 @@ function isUniform(array1)
 function sumArray(array1)
 {
 	var sum=0;
-	array1.forEach(function(i,array1){
+	for(var i=0; i<array1.length; i++)
+	{
+		
 		sum+=array1[i];
-	});
+		
+	}
 	return sum;
+
+	// array1.forEach(function(i,array1){
+	// 	sum+=array1[i];
+	// });
+	// return sum;
 }
 
 function max(array1)
