@@ -20,3 +20,26 @@ function isUniform(array1)
 	return j;
 	console.log(j);
 }
+
+function sumArray(array1)
+{
+	var sum=0;
+	array1.forEach(function(i,array1){
+		sum+=array1[i];
+	});
+	return sum;
+}
+
+function max(array1)
+{
+	var max=array1[0];
+	for(var i=1; i<array1.length; i++)
+	{
+		if(max<array1[i])
+		{
+			max=array1[i];
+		}
+		
+	}
+	return max;
+}
