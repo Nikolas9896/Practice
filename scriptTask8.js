@@ -20,25 +20,24 @@ function isUniform(array1)
 
 	}
 	return j;
-	console.log(j);
 }
 
 function sumArray(array1)
 {
 	var sum=0;
-	var length=array.length;
-	for(var i=0; i<length; i++)
-	{
+	// var length=array.length;
+	// for(var i=0; i<length; i++)
+	// {
 		
-		sum+=array1[i];
-		
-	}
-	return sum;
-
-	// array1.forEach(function(i,array1){
 	// 	sum+=array1[i];
-	// });
+		
+	// }
 	// return sum;
+
+	array1.forEach(function(element){
+		sum+=element;
+	});
+	return sum;
 }
 
 function max(array1)
