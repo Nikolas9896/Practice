@@ -13,5 +13,10 @@ while(command!=="quit")
 	{
 		alert(arr);
 	}
+	else if(command==="delete")
+	{
+		var i = prompt("what would you like to do?");
+		arr.splice(i,1);
+	}
 }
 alert("Thanks for used our APP!");
