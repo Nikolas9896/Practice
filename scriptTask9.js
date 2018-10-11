@@ -25,6 +25,7 @@ var movieDB = new Array(
 function showMovieDB()
 {
 	var length=movieDB.length
+	for(var i=0; i<length; i++)
 	{
 		console.log("You have "+movieDB[i].hasWatched+" \""+movieDB[i].title+"\" rating "+movieDB[i].rating +" stars");
 	}
